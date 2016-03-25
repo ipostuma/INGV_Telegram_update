@@ -1,0 +1,114 @@
+   Refresh: ?starttime=2016-03-18+00%3A00%3A00&endtime=2016-03-25+23%3A59%3A59&last_nd=7&minmag=2&maxmag=10&minlat=-90&maxlat=90&minlon=-180&maxlon=180&minversion=100&limit=50&orderby=ot-desc&tdmt_flag=-1&lat=0&lon=0&maxradiuskm=-1&wheretype=area
+     * INGV
+     * L'Istituto
+     * Ambiente
+     * Vulcani
+     * Terremoti
+     * Segnalazioni e Iniziative
+     * Stampa
+   INGV CNT
+   Segui INGV Terremoti Feed
+   Sala Sismica
+   Toggle navigation  Lista Terremoti
+     * Prodotti Scientifici
+          * ISIDe
+          * TDMT
+          * ShakeMap
+          * Pericolosit`a Sismica
+          * DBMI11
+          * CPTI11
+          * RCMT
+          * ESM
+          * ISMD
+     * Guida al Sito
+     * Contatti
+     * Link Istituzionali
+          * INGV
+          * L'Istituto
+          * Ambiente
+          * Vulcani
+          * Terremoti
+          * Segnalazioni e Iniziative
+          * Stampa
+          * Note Legali
+          * Privacy
+     * English
+     * italiano
+   Toggle Dropdown Dal 18-03-2016
+     * Ultimi 7 giorni 
+     * Ultimi 30 giorni
+     * Ultimi 90 giorni
+     * Ultimi 365 giorni
+     * Dal 2005-04-01
+   Toggle Dropdown Magnitudo maggiore di 2.0
+     * Magnitudo qualsiasi
+     * Magnitudo 2+ 
+     * Magnitudo 3+
+     * Magnitudo 4+
+     * Magnitudo 5.5+
+   Toggle Dropdown Lat[-90 90] Lon[-180 180]
+     * Italia
+     * Mediterraneo
+     * Mondo
+   Personalizza Ricerca
+   Esporta lista: Testo, QuakeML o Atom (max 4000)
+   Visualizzati 22 terremoti (Ordinamento Tempo Decrescente)
+
+   Data e Ora (UTC) Magnitudo Provincia/Zona Profondit`a Latitudine Longitudine
+   2016-03-24
+   06:12:40 2.5 Confine Italia Austria (AUSTRIA) ... 12 46.82 10.98
+   2016-03-23
+   20:44:08 2.1 Pesaro e Urbino 10 43.64 12.70
+   2016-03-23
+   12:53:24 2.1 Terni 8 42.74 12.59
+   2016-03-23
+   07:54:13 2.1 Costa Siciliana nord orientale (Messina) ... 122 38.38 15.41
+   2016-03-23
+   05:24:25 2.6 Confine Italia Francia (FRANCIA) ... 14 44.19 7.15
+   2016-03-23
+   04:40:52 2.1 Fermo 21 43.10 13.54
+   2016-03-23
+   00:54:40 2.4 Confine Italia Francia (FRANCIA) ... 14 44.19 7.15
+   2016-03-22
+   23:43:32 2.2 Isole Eolie (Messina) ... 11 38.39 14.87
+   2016-03-22
+   08:09:13 2.0 L'Aquila 11 42.24 13.67
+   2016-03-21
+   21:36:27 2.3 Foggia 23 41.78 15.38
+   2016-03-21
+   04:14:21 2.3 Mar Ionio Settentrionale (MARE) ... 38 37.77 16.67
+   2016-03-20
+   22:50:18 6.4 Near east coast of Kamchatka Peninsula, Russia [Sea] ... 11 54.12 162.79
+   2016-03-20
+   13:13:51 2.3 Potenza 8 40.17 15.91
+   2016-03-19
+   22:39:00 2.3 Costa Francese (FRANCIA) ... 10 43.24 5.41
+   2016-03-19
+   11:26:32 6.0 Leeward Islands [Sea: Antigua & Barbuda] ... 18 17.91 -60.74
+   2016-03-19
+   01:35:15 6.1 Andreanof Islands, Aleutian Islands, United States [Sea] ... 20 51.48 -174.21
+   2016-03-19
+   01:31:55 2.4 Modena 3 44.91 11.11
+   2016-03-18
+   21:15:41 2.4 Costa Siracusana (Siracusa) ... 30 37.00 15.28
+   2016-03-18
+   19:26:39 2.7 Cosenza 36 39.45 16.73
+   2016-03-18
+   14:13:33 2.9 Cosenza 34 39.55 16.79
+   2016-03-18
+   08:42:15 2.3 Catania 10 37.56 15.12
+   2016-03-18
+   08:15:29 2.1 L'Aquila 12 42.56 13.30
+
+   Segui INGV Terremoti Feed
+
+
+   I dati e i risultati pubblicati su queste pagine dall' Istituto Nazionale di Geofisica e Vulcanologia sono distribuiti sotto licenza Creative Commons Attribution 4.0 International License. Basato su un lavoro presso http://cnt.rm.ingv.it.
+
+   Creative Commons License
+
+   Osiride versione 1.6.3
+
+     * Note Legali
+     * Privacy
+     * P. IVA 06838821004

@@ -15,7 +15,7 @@ echo -e $data1
 echo -e $data2
 ./tg.sh "$1" "$data1"
 ./tg.sh "$1" "$data2"
-MYBASE="http://www.ianpostuma.it/MyPlayGround/terremotimap.html?"
+MYBASE="http://www.ianpostuma.it/MyPlayGround/terremotiOpenMap.html?"
 cat terremoti$yesterday.txt | sed -e 's/ora/\nora/g' | grep "ora" | awk -v r=$yesterday '{print "q="r","$2","$4","$6"@"$8","$10"&"}'| tr -d "\n" > dump
 cat terremoti$today.txt | sed -e 's/ora/\nora\[/g' | grep "ora" | awk -v r=$yesterday '{print "q="r","$2","$4","$6"@"$8","$10"&"}' | tr -d "\n" >> dump
 MYWAYS=`cat dump`

@@ -3,7 +3,7 @@
 #?q=Hello world@53,-2&
 today=`date '+%Y-%m-%d'`
 yesterday=`date -d yesterday '+%Y-%m-%d'`
-MYBASE="http://www.ianpostuma.it/MyPlayGround/terremotimap.html?"
+MYBASE="http://www.ianpostuma.it/MyPlayGround/terremotiOpenMap.html?"
 cat terremoti$yesterday.txt | sed -e 's/ora/\nora/g' | grep "ora" | awk -v r=$yesterday '{print "q="r","$2","$4","$6"@"$8","$10"&"}'| tr -d "\n" > dump
 cat terremoti$today.txt | sed -e 's/ora/\nora\[/g' | grep "ora" | awk -v r=$yesterday '{print "q="r","$2","$4","$6"@"$8","$10"&"}' | tr -d "\n" >> dump
 MYWAYS=`cat dump`

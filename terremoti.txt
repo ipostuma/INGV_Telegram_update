@@ -1,4 +1,4 @@
-   Refresh: ?starttime=2016-03-21+00%3A00%3A00&endtime=2016-03-28+23%3A59%3A59&last_nd=7&minmag=2&maxmag=10&minlat=-90&maxlat=90&minlon=-180&maxlon=180&minversion=100&limit=50&orderby=ot-desc&tdmt_flag=-1&lat=0&lon=0&maxradiuskm=-1&wheretype=area
+   Refresh: ?starttime=2016-03-22+00%3A00%3A00&endtime=2016-03-29+23%3A59%3A59&last_nd=7&minmag=2&maxmag=10&minlat=-90&maxlat=90&minlon=-180&maxlon=180&minversion=100&limit=50&orderby=ot-desc&tdmt_flag=-1&lat=0&lon=0&maxradiuskm=-1&wheretype=area
      * INGV
      * L'Istituto
      * Ambiente
@@ -34,7 +34,7 @@
           * Privacy
      * English
      * italiano
-   Toggle Dropdown Dal 21-03-2016
+   Toggle Dropdown Dal 22-03-2016
      * Ultimi 7 giorni 
      * Ultimi 30 giorni
      * Ultimi 90 giorni
@@ -52,9 +52,21 @@
      * Mondo
    Personalizza Ricerca
    Esporta lista: Testo, QuakeML o Atom (max 4000)
-   Visualizzati 28 terremoti (Ordinamento Tempo Decrescente)
+   Visualizzati 32 terremoti (Ordinamento Tempo Decrescente)
 
    Data e Ora (UTC) Magnitudo Provincia/Zona Profondit`a Latitudine Longitudine
+   2016-03-29
+   12:08:30 2.0 Costa Catanese (Catania) ... 29 37.47 15.56
+   2016-03-29
+   10:56:37 2.8 Canale di Sicilia meridionale (MARE) ... 154 36.16 13.09
+   2016-03-29
+   10:32:11 5.0 Svalbard, Norway, region [Sea: Norway] ... 10 77.76 20.74
+   2016-03-29
+   04:41:54 2.7 Costa Siciliana nord orientale (Messina) ... 8 38.17 15.11
+   2016-03-29
+   02:18:46 2.4 Tirreno Meridionale (MARE) ... 186 38.89 15.57
+   2016-03-29
+   01:05:30 5.2 Mar Ionio Meridionale (MARE) ... 10 37.50 20.18
    2016-03-28
    17:07:37 2.1 Enna 33 37.80 14.65
    2016-03-28
@@ -107,10 +119,6 @@
    23:43:32 2.2 Isole Eolie (Messina) ... 11 38.39 14.87
    2016-03-22
    08:09:13 2.0 L'Aquila 11 42.24 13.67
-   2016-03-21
-   21:36:27 2.3 Foggia 23 41.78 15.38
-   2016-03-21
-   04:14:21 2.3 Mar Ionio Settentrionale (MARE) ... 38 37.77 16.67
 
    Segui INGV Terremoti Feed
 

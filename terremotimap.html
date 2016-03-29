@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Markers on a Map</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAPDUET0Qt7p2VcSk6JNU1sBSM5jMcmVqUpI7aqV44cW1cEECiThQYkcZUPRJn9vy_TWxWvuLoOfSFBw" type="text/javascript"></script>
+  </head>
+  <body onunload="GUnload()">
+
+
+    <div id="map" style="position: relative;background-color: rgb(229, 227, 223);overflow: hidden;"></div>
+
+    <noscript><b>JavaScript must be enabled in order for you to use Google Maps.</b>
+      However, it seems JavaScript is either disabled or not supported by your browser.
+      To view Google Maps, enable JavaScript by changing your browser options, and then
+      try again.
+    </noscript>
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+
+    if (GBrowserIsCompatible()) {
+
+      // A function to create the marker and set up the event window
+      function createMarker(point,html) {
+        var marker = new GMarker(point,{title:html});
+        GEvent.addListener(marker, "click", function() {
+          marker.openInfoWindowHtml(html);
+        });
+        return marker;
+      }
+
+      // == Create the map ==
+      var map = new GMap2(document.getElementById("map"));
+      map.addControl(new GLargeMapControl());
+      map.addControl(new GMapTypeControl());
+      map.setCenter(new GLatLng(0,0), 1);
+
+      var bounds = new GLatLngBounds();
+
+      // ========== Read paramaters that have been passed in ==========
+
+      // If there are any parameters at the end of the URL, they will be in  location.search
+      // looking something like  "?q=date,time,mag,depth@59.591,17.82"
+
+      // skip the first character, we are not interested in the "?"
+      var query = location.search.substring(1);
+
+      // split the rest at each "&" character to give a list of  "argname=value"  pairs
+      var pairs = query.split("&");
+      for (var i=0; i<pairs.length; i++) {
+        // break each pair at the first "=" to obtain the argname and value
+	      var pos = pairs[i].indexOf("=");
+      	var argname = pairs[i].substring(0,pos).toLowerCase();
+	      var value = pairs[i].substring(pos+1);
+
+        // process each possible argname  -  use unescape() if theres any chance of spaces
+        if (argname == "q") {
+          var text = unescape(value);
+          var parts = text.split("@");
+          var latlng = parts[1].split(",");
+          var point = new GLatLng(parseFloat(latlng[0]),parseFloat(latlng[1]));
+          var values = parts[0].split(",");
+          var title = "il "+values[0]+" alle "+values[1]+" con una magnitudo di "+values[2]+" ad una profondità di "+values[3]
+          map.addOverlay(createMarker(point,title));
+          bounds.extend(point);
+        }
+      }
+
+      map.setZoom(map.getBoundsZoomLevel(bounds));
+      map.setCenter(bounds.getCenter());
+
+    }
+
+    // display a warning if the browser was not compatible
+    else {
+      alert("Sorry, the Google Maps API is not compatible with this browser");
+    }
+
+    // This Javascript is based on code provided by the
+    // Community Church Javascript Team
+    // http://www.bisphamchurch.org.uk/
+    // http://econym.org.uk/gmap/
+
+    //]]>
+    </script>
+  </body>
+
+</html>

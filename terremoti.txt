@@ -1,4 +1,4 @@
-   Refresh: ?starttime=2016-03-18+00%3A00%3A00&endtime=2016-03-25+23%3A59%3A59&last_nd=7&minmag=2&maxmag=10&minlat=-90&maxlat=90&minlon=-180&maxlon=180&minversion=100&limit=50&orderby=ot-desc&tdmt_flag=-1&lat=0&lon=0&maxradiuskm=-1&wheretype=area
+   Refresh: ?starttime=2016-03-21+00%3A00%3A00&endtime=2016-03-28+23%3A59%3A59&last_nd=7&minmag=2&maxmag=10&minlat=-90&maxlat=90&minlon=-180&maxlon=180&minversion=100&limit=50&orderby=ot-desc&tdmt_flag=-1&lat=0&lon=0&maxradiuskm=-1&wheretype=area
      * INGV
      * L'Istituto
      * Ambiente
@@ -34,7 +34,7 @@
           * Privacy
      * English
      * italiano
-   Toggle Dropdown Dal 18-03-2016
+   Toggle Dropdown Dal 21-03-2016
      * Ultimi 7 giorni 
      * Ultimi 30 giorni
      * Ultimi 90 giorni
@@ -52,9 +52,43 @@
      * Mondo
    Personalizza Ricerca
    Esporta lista: Testo, QuakeML o Atom (max 4000)
-   Visualizzati 22 terremoti (Ordinamento Tempo Decrescente)
+   Visualizzati 28 terremoti (Ordinamento Tempo Decrescente)
 
    Data e Ora (UTC) Magnitudo Provincia/Zona Profondit`a Latitudine Longitudine
+   2016-03-28
+   17:07:37 2.1 Enna 33 37.80 14.65
+   2016-03-28
+   15:57:58 2.4 Matera 25 40.40 16.29
+   2016-03-28
+   07:17:31 2.7 Siena 7 43.38 11.59
+   2016-03-28
+   01:30:39 2.6 Bologna 24 44.19 11.41
+   2016-03-28
+   01:27:28 2.0 Bologna 31 44.23 11.37
+   2016-03-28
+   01:07:28 2.0 Bologna 33 44.25 11.42
+   2016-03-27
+   21:43:25 2.1 Messina 19 38.12 14.95
+   2016-03-27
+   21:43:01 2.2 Messina 10 38.14 14.94
+   2016-03-27
+   18:17:38 2.0 Siena 6 43.38 11.60
+   2016-03-27
+   15:05:42 2.0 Tirreno Meridionale (MARE) ... 8 39.65 15.20
+   2016-03-27
+   13:43:52 2.3 Mar Ionio Meridionale (MARE) ... 8 37.47 15.60
+   2016-03-27
+   13:09:29 4.5 Costa Albanese settentrionale (ALBANIA) ... 10 41.31 19.36
+   2016-03-27
+   05:27:34 2.0 L'Aquila 9 42.51 13.29
+   2016-03-27
+   03:15:34 2.1 Costa Ionica Cosentina (Cosenza) ... 36 39.58 16.84
+   2016-03-26
+   17:12:35 2.3 Tirreno Meridionale (MARE) ... 193 38.92 15.47
+   2016-03-26
+   09:10:57 2.1 Lodi 29 45.37 9.51
+   2016-03-25
+   18:25:31 2.9 Isole Eolie (Messina) ... 303 38.70 15.13
    2016-03-24
    06:12:40 2.5 Confine Italia Austria (AUSTRIA) ... 12 46.82 10.98
    2016-03-23
@@ -77,28 +111,6 @@
    21:36:27 2.3 Foggia 23 41.78 15.38
    2016-03-21
    04:14:21 2.3 Mar Ionio Settentrionale (MARE) ... 38 37.77 16.67
-   2016-03-20
-   22:50:18 6.4 Near east coast of Kamchatka Peninsula, Russia [Sea] ... 11 54.12 162.79
-   2016-03-20
-   13:13:51 2.3 Potenza 8 40.17 15.91
-   2016-03-19
-   22:39:00 2.3 Costa Francese (FRANCIA) ... 10 43.24 5.41
-   2016-03-19
-   11:26:32 6.0 Leeward Islands [Sea: Antigua & Barbuda] ... 18 17.91 -60.74
-   2016-03-19
-   01:35:15 6.1 Andreanof Islands, Aleutian Islands, United States [Sea] ... 20 51.48 -174.21
-   2016-03-19
-   01:31:55 2.4 Modena 3 44.91 11.11
-   2016-03-18
-   21:15:41 2.4 Costa Siracusana (Siracusa) ... 30 37.00 15.28
-   2016-03-18
-   19:26:39 2.7 Cosenza 36 39.45 16.73
-   2016-03-18
-   14:13:33 2.9 Cosenza 34 39.55 16.79
-   2016-03-18
-   08:42:15 2.3 Catania 10 37.56 15.12
-   2016-03-18
-   08:15:29 2.1 L'Aquila 12 42.56 13.30
 
    Segui INGV Terremoti Feed
 
